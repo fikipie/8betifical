@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url('item/BG.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px;
+  }
+
+.nav{
+    font-family: Roboto Mono;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+/*.nav2{
+    margin-left: 22rem;
+} */
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px rgba(146, 146, 146, 0.404);
+
+    /*Blur*/
+    backdrop-filter: blur(4px);
+}
+
+.nav ul h1{
+    margin-top: 15px;
+    margin-bottom: -68px;
+    font-family: Archivo Black;
+    color: #233581;
+}
+
+.nav li{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.nav li a{
+    display: block;
+    color: #233581;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav li a:hover{
+    box-shadow: 0px 3px  0 black;
+}
+.active{
+    box-shadow: 0px 3px  0 black;
+}
+
+
+
+.nav li img{
+    width: 130px;
+}
+.nav ul img{
+    width: 130px;
+    margin-bottom: -30px;
+}
+
+.content{
+    font-family: Roboto;
+    margin-top: 125px;
+    text-align: center;
+    align-items: center;
+}
+.content h1{
+    color: #ffffff; 
+ }
+ .content h3{
+    color: #ffffff; 
+ }
+.content p{
+   color: #ffffff; 
+}
+.sl{
+    width: 50%;
+    display: inline-block;
+    height: 2px;
+    background-color: #233581;
+    border-width:0
+}
+.ll{
+    display: inline-block;
+    width: 90%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-width:0
+ }
+
+.bar{
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.about{
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+
+}
+.about p{
+    color: #233581;
+}
+.about h3{
+    color: #233581;
+}
+.spic{
+    width: 1200px;
+    margin-top: 5px;
+}
+.str{
+    margin-top: 3px;
+    user-select: none;
+    transition: .3s;
+}
+.str:hover{
+    text-decoration: underline;
+}
